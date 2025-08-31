@@ -22,6 +22,6 @@
 
 @media (max-width: 768px) {
   .fade-kankir {
-    margin: 0 20px;
+    display: none !important;
   }
 }

@@ -16,7 +16,7 @@ const Title = styled.h1`
     color: black;
     letter-spacing: -1px !important;
     line-height: 30px;
-    margin-top: 10px !important;
+    margin: 10px 30px !important;
   }
 `;
 

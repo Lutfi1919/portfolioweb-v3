@@ -66,7 +66,7 @@ function Education() {
       <EducationWrapper>
         <SchoolInfo>
           <img
-            className="LogoWk shadow-lg"
+            className=""
             src="/images/wikrama-logo.png"
             alt="Logo"
             width={55}
