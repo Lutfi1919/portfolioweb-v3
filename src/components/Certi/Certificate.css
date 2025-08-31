@@ -1,0 +1,27 @@
+.fade-kankir::before,
+.fade-kankir::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.fade-kankir::before {
+  left: 0;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.fade-kankir::after {
+  right: 0;
+  background: linear-gradient(to left, white, transparent);
+}
+
+
+@media (max-width: 768px) {
+  .fade-kankir {
+    margin: 0 20px;
+  }
+}

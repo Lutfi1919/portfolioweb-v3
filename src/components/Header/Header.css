@@ -1,0 +1,26 @@
+.atas {
+    width: 800px;
+    max-width: 100%;
+    margin: 100px auto;
+    font-family: DM Sans;
+}
+
+.HeaderInfo {
+    max-width: 550px;
+    text-align: left;
+    margin-top: -130px;
+    color: black;
+    font-family: Plus jakarta sans;
+    letter-spacing: 0.5px;
+}
+
+.fsplit {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .atas {
+        width: 100%;
+        margin: 50px auto;
+    }
+}

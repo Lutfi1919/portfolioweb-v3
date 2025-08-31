@@ -1,0 +1,43 @@
+.main {
+    width: 800px;
+    max-width: 100%;
+    margin: 100px auto;
+    font-family: DM Sans;
+    /* font-family: Inter; */
+    color: black;
+}
+
+.LogoWk {
+    border-radius: 100%;
+}
+
+.badge-porto {
+    transition: 0.2s !important;
+}
+
+.badge-porto:hover {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(163, 163, 163);
+}
+
+.blur {
+    transition: 0.3s !important;
+}
+
+.row:hover > .blur:not(:hover) {
+    filter: blur(10px) !important;
+    transform: scale(0.97, 0.97) !important;
+}
+
+.btn-judul {
+    font-size: 13px !important;
+    padding: 3.5px 13px !important;
+    background-color: black !important;
+    color: #efefef;
+    transition: 0.3s;
+}
+
+.btn-judul:hover {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(163, 163, 163);
+}
