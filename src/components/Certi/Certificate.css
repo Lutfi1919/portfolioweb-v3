@@ -21,7 +21,11 @@
 
 
 @media (max-width: 768px) {
-  .fade-kankir {
+  .fade-kankir::before {
+    display: none !important;
+  }
+
+  .fade-kankir::after {
     display: none !important;
   }
 }
