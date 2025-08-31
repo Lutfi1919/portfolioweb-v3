@@ -62,7 +62,7 @@ const DateText = styled.h6`
 function Education() {
   return (
     <>
-      <Title>Edication</Title>
+      <Title>Education</Title>
       <EducationWrapper>
         <SchoolInfo>
           <img
